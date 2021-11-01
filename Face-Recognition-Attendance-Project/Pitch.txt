@@ -1,0 +1,31 @@
+
+
+ step-1:Finding all the Faces (Camera ex and it uses Haar cascade classifiers (Viola-Jones detectors))
+what is HOG:
+The Histogram of Oriented Gradients method suggested by Dalal and Triggs in their seminal 2005 paper,(For reference)
+
+ Histogram of Oriented Gradients (HOG) image descriptor and a Linear Support Vector Machine (SVM) 
+could be used to train highly accurate object classifiers 
+
+Our goal is to figure out how dark the current pixel is compared to the pixels directly surrounding it.
+ Then we want to draw an arrow showing in which direction the image is getting darker
+:(These arrows are called gradiants)
+
+we will finally end up with all the pixels replaced with gradiants
+
+why to replace with gradiants?
+
+If we compare pixels directly there will be huge difference b/w the pixel vlaues of a 
+same person in his light and dark 
+images so to take the brightness of the image out of equation we will look into gradiants.
+
+Step-2: Posing and Projecting Faces 
+Point-1)
+After the detection of  face in an image now we need to tackle the problem of differently oriented faces in different
+directions.
+
+Step 3: Encoding Faces
+
+
+
+
